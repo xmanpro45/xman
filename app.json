@@ -1,0 +1,46 @@
+{
+    "name": "SDMN",
+    "description": "A Telegram CC Checker Bot with hella lotta features.",
+    "logo": "https://pbs.twimg.com/profile_images/1252291883793027074/RfEhm8yV_400x400.jpg",
+    "keywords": [
+        "Telegram",
+        "Bot",
+        "Modular"
+    ],
+    "website": "https://telegram.me/anonbd",
+    "repository": "https://github.com/xmanpro45/xman",
+    "env": {
+        "TOKEN": {
+            "description": "Enter your Bot Token Here",
+            "value": "",
+            "required": true
+        },
+        "MODE": {
+            "description": "prod",
+            "value": "",
+            "required": true
+        },
+        "CHAT_ID_FORWARD": {
+            "description": "Enter the ID of a Group/Channel to store Logs",
+            "value": "",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Database URL",
+            "value": "",
+            "required": true
+        },
+        "TIMEZONE": {
+            "description": "Your Preffered TimeZone",
+            "value": "Asia/Kolkata",
+            "required": false
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
